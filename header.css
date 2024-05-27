@@ -1,0 +1,97 @@
+body{
+	background-color:;
+}
+body a{
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+.nav{
+	background-color: white;
+	display: inline-flex;
+	margin:0 ;
+	padding: 5px;
+	width: 100%;
+}
+.nav a.navbrand{
+	display: inline-flex;
+	width: ;
+
+}
+.nav a.navbrand img{
+	border-radius: 50%;
+
+}
+.nav a.navbrand h2{
+	color: red;
+	font-weight: bolder;
+	font-family: georgia;
+	margin-left: 15px;
+	width: 100px;
+	
+}
+div.menus {
+	margin-left: 15%;
+}
+div.menus ul{
+	display: inline-flex;
+	padding: px;
+	list-style: none;
+
+}
+div.menus ul li{
+	margin-left: 13px;
+	color: green;
+	width: 100px;
+	display: inline-flex;
+}
+div.menus ul li a{
+	color: green;
+}
+div.forms{
+	display: inline-flex;
+	margin-left: 25px;
+}
+div.forms form.login{
+	display: flex;
+	margin-left: 15px;
+
+}
+div.forms form.login input{
+	display: inline-flex;
+	height: 30px;
+	margin-left: 2%;
+	border-radius: 8px;
+	background-color: aqua;
+}
+div.forms form.login button{
+	margin-left: 10px;
+	background-color: blue;
+	border-radius: 7px;
+	height: 35px;
+	margin-right: 10px;
+	color: white;
+	box-shadow: 3px 3px 5px black;
+}
+div.forms a{
+	margin-left: 100px;
+	color: lightblue;
+	align-items: center;
+	padding: 5px;
+	padding-top: 8px;
+	border: 2px solid black;
+	background-color: green;
+	height: 30px;
+	border-radius: 8px;
+	box-shadow: 3px 3px 5px red;
+}
+div.forms button.logoutsubmit{
+	margin-left: 10px;
+	background: linear-gradient(to right,black,red,green);
+	border-radius: 7px;
+	height: 35px;
+	width: 100px;
+	margin-right: 10px;
+	color: white;
+	box-shadow: 3px 3px 5px black;
+}

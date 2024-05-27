@@ -1,0 +1,44 @@
+body{
+	background-color: darkslategray;
+	text-align: ;
+}
+div.content{
+	background: linear-gradient(to right,white,cyan,blue);
+	height: 500x;
+	max-width: 450px;
+	padding: 30px;
+	margin-top: 5%;
+	box-shadow: 5px 5px 8px black;
+	border-radius: 10px;
+	margin-left: 25%;
+}
+div.content h2{
+	color: red;
+	font-family: cursive;
+}
+div.content form{
+	margin: 5px;
+}
+div.content form input{ 
+	display: block;
+	margin-top: 20px;
+	width: 90%;
+	border-radius: 10px;
+	border: 2px solid orangered;
+	height: 1.6rem;
+	padding: 10px;
+	box-shadow: 2px 2px 5px black;
+	font-family: monospace;
+}
+div.content form button{
+	margin-top: 20px;
+	background: linear-gradient(to right,black,red,green);
+	border-radius: 7px;
+	height: 50px;
+	width: 50%;
+	color: white;
+	box-shadow: 3px 3px 5px black;
+	font-weight: bolder;
+	font-size: 1.3rem;
+	font-family: georgia;
+}
